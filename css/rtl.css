@@ -1,0 +1,58 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td { direction: rtl; }
+blockquote { border-right: 1px solid #ddd; border-left-width:0;}
+cite, blockquote cite {text-align:left;}
+code, pre { direction:ltr;padding:0 4px 2px;}
+code { padding:4px 6px 2px;}
+pre { padding:10px;}
+/* #Lists and Links */
+ul ul, ol ol {margin:10px 20px 0 0;}
+/* #Table */
+.table th, .table td {text-align:right;}
+.table.bordered {border-width:1px;}
+label input[type="radio"], label input[type="checkbox"] , label span {unicode-bidi:embed;}
+/* Grids */
+[class*="column"] + [class*="column"]:last-child { float: left; }
+[class*="column"] + [class*="column"].end { float: right; }
+.row .offset-by-one { margin-right: 8.33333%; }
+.row .offset-by-two { margin-right: 16.66667%; }
+.row .offset-by-three { margin-right: 25%; }
+.row .offset-by-four { margin-right: 33.33333%; }
+.row .offset-by-five { margin-right: 41.66667%; }
+.row .offset-by-six { margin-right: 50%; }
+.row .offset-by-seven { margin-right: 58.33333%; }
+.row .offset-by-eight { margin-right: 66.66667%; }
+.row .offset-by-nine { margin-right: 75%; }
+.row .offset-by-ten { margin-right: 83.33333%; }
+.push-two { right: 16.66667%; }
+.pull-two { left: 16.66667%; }
+.push-three { right: 25%; }
+.pull-three { left: 25%; }
+.push-four { right: 33.33333%; }
+.pull-four { left: 33.33333%; }
+.push-five { right: 41.66667%; }
+.pull-five { left: 41.66667%; }
+.push-six { right: 50%; }
+.pull-six { left: 50%; }
+.push-seven { right: 58.33333%; }
+.pull-seven { left: 58.33333%; }
+.push-eight { right: 66.66667%; }
+.pull-eight { left: 66.66667%; }
+.push-nine { right: 75%; }
+.pull-nine { left: 75%; }
+.push-ten { right: 83.33333%; }
+.pull-ten { left: 83.33333%; }
+/* Block Grids ---------------------- */
+.block-grid > li { display: block; height: auto; float: right; }
+/* #Friendly  */
+.alignnone {margin:5px 0 20px 20px;}
+.alignright {float:right;margin:5px 20px 20px 0;}
+.alignleft {float:left; margin:5px 0 20px 20px;}
+/* add for blogotext 2 by kris */
+#top_text h2, .permalien, .com-reply, #form-commentaire .infos {text-align: left;}
+th, td {text-align:right;}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+}
